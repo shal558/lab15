@@ -954,3 +954,111 @@ lab15
     </script>
 </body>
 </html>
+
+
+
+
+EduTrack — система учёта студентов
+
+Современный веб-интерфейс для управления студентами, предметами, преподавателями и оценками. Поддерживает темы, мультиязычность и модульную структуру.
+
+1. Цель проекта
+
+Создать удобный, адаптивный и визуально выразительный интерфейс, который можно легко интегрировать с серверной частью и использовать в учебных заведениях.
+
+2. Описание проекта
+
+EduTrack предоставляет инструменты для базы студентов:
+
+добавление студентов (имя, курс, специализация);
+
+фильтрация данных;
+
+навигация по модулям: студенты, предметы, преподаватели, оценки, отчёты, профиль;
+
+смена темы оформления (Dark / Festival Light);
+
+мультиязычная поддержка (RU | EN | JP);
+
+адаптивный дизайн.
+
+Приложение реализовано на HTML + CSS, структура готова к подключению JavaScript-логики.
+
+3. Структура проекта
+project/
+│
+├── index.html          # Основной интерфейс EduTrack
+├── /assets
+│     ├── styles.css    # Стили (или inline CSS)
+│     └── scripts.js    # Логика приложения
+│
+├── /img                # Скриншоты интерфейса
+│
+├── package.json        # npm-конфигурация
+└── README.md           # Текущая документация
+
+4. Скриншоты интерфейса
+
+Добавьте изображения в папку /img и вставьте:
+
+https://github.com/user-attachments/assets/53c29be0-c4c8-4e95-b207-dd7d4c6dad94)
+
+
+5. Примеры кода
+HTML — форма добавления студента
+<form id="student-form">
+    <input type="text" id="student-name" placeholder="[NICKNAME/ИМЯ]" class="app-input">
+    <input type="number" id="student-course" placeholder="[COURSE/КУРС (1-5)]" class="app-input">
+    <select id="student-specialization" class="app-input">
+        <option value="Front-end">FRONT-END</option>
+        <option value="Back-end">BACK-END</option>
+    </select>
+    <button class="app-btn">СОХРАНИТЬ</button>
+</form>
+
+CSS — переключение темы
+body.light-theme {
+    background: var(--light-bg);
+    color: var(--light-text);
+}
+
+body.dark-theme {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+JS — базовый toggler темы
+document.getElementById("theme-toggle").onclick = () => {
+    document.body.classList.toggle("light-theme");
+    document.body.classList.toggle("dark-theme");
+};
+
+6. Инструкция по запуску
+Установка зависимостей:
+npm install
+
+Запуск приложения:
+npm start
+
+Запуск тестов:
+npm test
+
+7. Ссылка на репозиторий
+
+Укажите вашу:
+
+https://github.com/username/edutrack
+
+8. Выводы
+
+Разработан готовый интерфейс системы “EduTrack”, включающий:
+
+модульную структуру;
+
+формы и таблицы;
+
+поддержку тем;
+
+мультиязычность;
+
+визуальную адаптивность.
