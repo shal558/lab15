@@ -998,10 +998,12 @@ project/
 └── README.md           # Текущая документация
 
 4. Скриншоты интерфейса
+   ![Изображение WhatsApp 2025-12-09 в 15 01 25_11b55f5c](https://github.com/user-attachments/assets/ff327bc5-bf08-449a-a1b7-7f45f33f731f)
+
 
 Добавьте изображения в папку /img и вставьте:
 
-https://github.com/user-attachments/assets/53c29be0-c4c8-4e95-b207-dd7d4c6dad94)
+https://github.com/shal558/lab15.git
 
 
 5. Примеры кода
