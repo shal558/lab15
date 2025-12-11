@@ -998,7 +998,8 @@ project/
 └── README.md           # Текущая документация
 
 4. Скриншоты интерфейса
-   ![Изображение WhatsApp 2025-12-09 в 15 01 25_11b55f5c](https://github.com/user-attachments/assets/ff327bc5-bf08-449a-a1b7-7f45f33f731f)
+
+![интерфейс ](https://github.com/user-attachments/assets/5300ce4a-1e4e-4e92-89dd-9ad1c6230305)
 
 
 Добавьте изображения в папку /img и вставьте:
@@ -1012,7 +1013,8 @@ HTML — форма добавления студента
     <input type="text" id="student-name" placeholder="[NICKNAME/ИМЯ]" class="app-input">
     <input type="number" id="student-course" placeholder="[COURSE/КУРС (1-5)]" class="app-input">
     <select id="student-specialization" class="app-input">
-        <option value="Front-end">FRONT-END</option>
+        <option value="Front-end">FRONT-E![интерфейс ](https://github.com/user-attachments/assets/1e62ff56-1231-4fd1-91be-47f786fdbc96)
+ND</option>
         <option value="Back-end">BACK-END</option>
     </select>
     <button class="app-btn">СОХРАНИТЬ</button>
